@@ -2,6 +2,7 @@ require "csv"
 
 csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_competitions.csv"))
 competitions_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
+
 # team = Team.new({ team_id: "testteam", name: "testteamname", country: "test country", team_type: "testteamtype" })
 # team.save
 
