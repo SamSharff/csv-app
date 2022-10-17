@@ -25,5 +25,6 @@ people_csv.each do |row|
   person.orig_person_id = row["orig_person_id"]
   person.name = row["name"]
   person.birth_date = row["birth_date"]
+  person.save
   puts "#{person.orig_person_id}, #{person.name}  has been saved"
 end
