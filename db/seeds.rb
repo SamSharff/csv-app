@@ -18,12 +18,12 @@ require "csv"
 
 ### person ###
 csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_people.csv"))
-person_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
+people_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
-person_csv.each do |row|
-  person = person.new
-  person.person_id = row["person_id"]
+people_csv.each do |row|
+  person = Person.new
+  person.orig_person_id = row["orig_person_id"]
   person.name = row["name"]
   person.birth_date = row["birth_date"]
-  puts "#{person.person_id}, #{person.name}  has been saved"
+  puts "#{person.orig_person_id}, #{person.name}  has been saved"
 end
