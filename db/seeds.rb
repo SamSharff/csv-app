@@ -17,7 +17,7 @@ require "csv"
 # end
 
 ### person ###
-csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_people.csv"))
+csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_people_2.csv"))
 people_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
 people_csv.each do |row|
