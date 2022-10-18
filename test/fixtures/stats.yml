@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  orig_person_id: MyString
+  season: MyString
+  orig_comp_id: 1
+  orig_team_id: MyString
+  games: 1
+  minutes: 1
+  goals: 1
+  assists: 1
+
+two:
+  orig_person_id: MyString
+  season: MyString
+  orig_comp_id: 1
+  orig_team_id: MyString
+  games: 1
+  minutes: 1
+  goals: 1
+  assists: 1
