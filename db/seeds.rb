@@ -15,20 +15,8 @@ competitions_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-
 #   competition.save
 #   puts "#{competition.orig_comp_id}, #{competition.name} saved"
 # end
-### person ###
-csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_people_2.csv"))
-people_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
-people_csv.each do |row|
-  person = Person.new
-  person.orig_person_id = row["orig_person_id"]
-  person.name = row["name"]
-  person.birth_date = row["birth_date"]
-  person.save
-  puts "#{person.orig_person_id}, #{person.name}  has been saved"
-end
-
-# ### stats ###
+### people ###
 # csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_people_2.csv"))
 # people_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
@@ -40,3 +28,6 @@ end
 #   person.save
 #   puts "#{person.orig_person_id}, #{person.name}  has been saved"
 # end
+
+# ### stats ###
+# csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_stats_2.csv"))
