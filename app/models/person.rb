@@ -1,3 +1,3 @@
 class Person < ApplicationRecord
-  # has_many :stats
+  has_many :stats
 end
