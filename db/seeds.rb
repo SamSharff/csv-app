@@ -48,15 +48,15 @@ require "csv"
 # end
 
 ### teams ###
-csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_teams_2.csv"))
-teams_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
+# csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_teams_2.csv"))
+# teams_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
-teams_csv.each do |row|
-  team = Team.new
-  team.orig_team_id = row["orig_team_id"]
-  team.name = row["name"]
-  team.country = row["country"]
-  team.team_type = row["team_type"]
-  team.save
-  puts "#{team.orig_team_id} #{team.name} has been saved."
-end
+# teams_csv.each do |row|
+#   team = Team.new
+#   team.orig_team_id = row["orig_team_id"]
+#   team.name = row["name"]
+#   team.country = row["country"]
+#   team.team_type = row["team_type"]
+#   team.save
+#   puts "#{team.orig_team_id} #{team.name} has been saved."
+# end
