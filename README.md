@@ -7,11 +7,11 @@
 
 ## Approach
 
-1. Decide on tools
+**1. Decide on tools**
 
 Initially, in a bid to "make it work, then make it cute", I decided to use RoR for the backend, a PostgreSQL database, and though it felt like overkill, a Vue.JS frontend. I figured for the time being I could choose tools I was familiar with in order to complete the exercise and if any time remained, go back and refactor. For example, I started to look into using ERB files to display the HTML, which would be less heavy-handed than building an entire frontend.
 
-2. Plan, design
+**2. Plan, design**
 
 Original idea:
 
@@ -30,7 +30,7 @@ However, on further examination of the CSV files, I realized the tables had alre
 
 And truthfully this is where I spent most of my time. I did research on foreign/primary keys and reached out to other developers in my community to bounce ideas off them, pair, and reviewed my work and understanding with a senior dev, all the while keeping in mind my goal was to learn and experiment, not have the work done for me.
 
-3. Adjust
+**3. Adjust**
 
 What I completed:
 
