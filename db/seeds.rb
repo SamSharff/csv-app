@@ -1,6 +1,6 @@
 require "csv"
 
-## competitions ###
+## competition ###
 # csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_competitions_2.csv"))
 # competitions_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
@@ -16,7 +16,7 @@ require "csv"
 #   puts "#{competition.orig_comp_id}, #{competition.name} saved"
 # end
 
-### people ###
+### person ###
 # csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_people_2.csv"))
 # people_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
@@ -29,7 +29,7 @@ require "csv"
 #   puts "#{person.orig_person_id}, #{person.name}  has been saved"
 # end
 
-# ### stats ###
+# ### stat ###
 # csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_stats_2.csv"))
 # stats_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
@@ -47,7 +47,7 @@ require "csv"
 #   puts "#{stat.id} #{stat.orig_comp_id} belonging to player ##{stat.orig_person_id} has been saved."
 # end
 
-### teams ###
+### team ###
 # csv_text = File.read(Rails.root.join("lib", "seeds", "sr_dev_teams_2.csv"))
 # teams_csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 
