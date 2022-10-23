@@ -5,8 +5,6 @@
 - Ruby on Rails
 - PostgreSQL database
 
----
-
 ## Approach
 
 1. Decide on tools
