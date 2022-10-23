@@ -65,13 +65,14 @@ Frontend examples:
 - admittedly a crudely designed [passion project](https://github.com/SamSharff/sox-yanks-frontend/blob/main/src/views/HomeView.vue) where I created a static page using Baseball Reference's Top 10 Plays of the Sox/Yankees 2004 ALCS series. I exported the HTML table, hardcoded it into my page, and embedded clips of each play in the Description column.
 
 Resources utlized/hours spent:
-~ 100 hours
+~ 40-70 hours
 
 - https://stackoverflow.com/questions/16222838/has-many-through-with-a-foreign-key
 - https://rails.devcamp.com/trails/3/campsites/54/guides/how-use-different-foreign-key-rails
 - https://guides.rubyonrails.org/index.html
 - https://pgexercises.com/
 - https://api.rubyonrails.org/v7.0.4/classes/ActiveRecord/FinderMethods.html
+- https://edgeguides.rubyonrails.org/active_record_basics.html
 - https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html
 - https://gist.github.com/arjunvenkat/1115bc41bf395a162084
 - https://levelup.gitconnected.com/quickly-seeding-a-rails-database-using-a-csv-file-8438b8b68f05
