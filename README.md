@@ -63,3 +63,18 @@ Frontend examples:
 
 - a [resume database](https://github.com/SamSharff/resume-frontend/blob/main/src/views/IndexResume.vue), where users could input new training and experiences, exporting relevant data to one new resume. Using Axios, I made web requests to the backend, calling and displaying user data in tables. I imagine doing something similar (creating a method to call the relevant data and injecting that into an HTML table) as a next step for this app. Additionally, while I used Bootstrap, I based my design on sites like Baseball Reference and Ballotpedia which I use regularly, and which rely on a straight-forward design I like.
 - admittedly a crudely designed [passion project](https://github.com/SamSharff/sox-yanks-frontend/blob/main/src/views/HomeView.vue) where I created a static page using Baseball Reference's Top 10 Plays of the Sox/Yankees 2004 ALCS series. I exported the HTML table, hardcoded it into my page, and embedded clips of each play in the Description column.
+
+Resources utlized/hours spent:
+~ 100 hours
+
+- https://stackoverflow.com/questions/16222838/has-many-through-with-a-foreign-key
+- https://rails.devcamp.com/trails/3/campsites/54/guides/how-use-different-foreign-key-rails
+- https://guides.rubyonrails.org/index.html
+- https://pgexercises.com/
+- https://api.rubyonrails.org/v7.0.4/classes/ActiveRecord/FinderMethods.html
+- https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html
+- https://gist.github.com/arjunvenkat/1115bc41bf395a162084
+- https://levelup.gitconnected.com/quickly-seeding-a-rails-database-using-a-csv-file-8438b8b68f05
+- https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3
+- https://stackoverflow.com/questions/31462005/defining-custom-methods-within-a-model-class-in-rails-4
+- https://medium.com/@mera.stackhouse/what-are-indexes-and-how-to-add-them-to-your-rails-app-dc066d538771
