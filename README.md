@@ -2,7 +2,8 @@
 
 ## Language/Database
 
-- Ruby on Rails
+- Ruby 3.0.3
+- Rails 7.0.4
 - PostgreSQL database
 
 ## Approach
